@@ -1,29 +1,34 @@
+Proyecto: Identificación de Operadores Ineficaces
+Resumen del Proyecto
 
-Proyecto:
+Se desarrolló un modelo para identificar operadores ineficaces mediante un puntaje que combina diversos indicadores de desempeño. Se calificaron distintos aspectos como número de llamadas realizadas, duración promedio y llamadas perdidas, para separar a los operadores con rendimiento inferior del resto.
 
-Se creó un filtro para separar operadores ineficaces del resto por medio de un puntaje. Siguiendo una serie de parametros se calificaron distintos aspectos tales como numero de llamadas realizadas, duración de las mismas, etc.
+Contexto de Negocio
 
-Contexto de Negocio:
+La empresa CallMeMaybe busca conocer cuáles son sus operadores más ineficaces, con el fin de optimizar la gestión del personal y mejorar la eficiencia del equipo.
 
-La empresa CallMeMaybe busca conocer cuales son sus operadores/empleados más ineficaces.
+Metodología y Enfoque
 
-Metodología y Enfoque:
+Recolección de Datos: obtención de métricas de desempeño de cada operador.
 
-Recolección de Datos: obtención de informacion para cada operador.
-Preprocesamiento: limpieza de datos, verificación de normalidad y homogeneidad de varianzas.
-Análisis Estadístico: Se aplica una serie de filtros para clasificar a cada operador.
-Interpretación: análisis del valor p y del intervalo de confianza para determinar significancia.
+Preprocesamiento: limpieza y normalización de los datos, verificación de normalidad y homogeneidad de varianzas.
 
-Tecnologías Utilizadas:
+Análisis Estadístico: aplicación de filtros y reglas para puntuar el desempeño de cada operador.
+
+Interpretación: identificación de operadores con desempeño significativamente inferior.
+
+Tecnologías Utilizadas
 
 Python, Pandas, Scipy, Matplotlib, Tableau
 
-Resultados y Valor de Negocio:
+Resultados y Valor de Negocio
 
-Total de operadores clasificados como ineficaces: 157.
-Se comprueba que existe un rendimiento considerablemente inferior por parte de dichos operadores.
-Insights útiles sobre el rendimiento de los operadores.
+Total de operadores clasificados como ineficaces: 157
 
-Impacto Comercial:
+Se comprobó que estos operadores presentan un rendimiento considerablemente inferior.
 
-Se prevé un recorte en el personal, lo cual permitiria un ahorro de gasto en cuanto a pago de nomina o en su defecto un mayor desempeño por parte del staff actual.
+Generación de insights útiles sobre el desempeño del equipo y áreas de mejora.
+
+Impacto Comercial
+
+El análisis permite optimizar la gestión del personal, mediante capacitación dirigida o reasignación de recursos, aumentando el desempeño general del equipo y reduciendo costos operativos.
