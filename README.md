@@ -1,4 +1,5 @@
 Proyecto: Identificación de Operadores Ineficaces
+
 Resumen del Proyecto
 
 Se desarrolló un modelo para identificar operadores ineficaces mediante un puntaje que combina diversos indicadores de desempeño. Se calificaron distintos aspectos como número de llamadas realizadas, duración promedio y llamadas perdidas, para separar a los operadores con rendimiento inferior del resto.
